@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:59588/",
+      "applicationUrl": "http://localhost:5000",
       "sslPort": 0
     }
   },
@@ -17,11 +17,10 @@
     },
     "IdentityServer": {
       "commandName": "Project",
-      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:59589/"
+      "applicationUrl": "http://localhost:5000"
     }
   }
 }
